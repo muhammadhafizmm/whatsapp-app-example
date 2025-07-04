@@ -1,4 +1,3 @@
-// server.ts
 import Fastify from "fastify";
 import { errorHandlerPlugin } from "./plugins/error-handler";
 import { multipartPlugin } from "./plugins/multipart";

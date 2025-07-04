@@ -1,3 +1,5 @@
+/// <reference path="../../sst.config.ts" />
+
 export function ApiStack() {
   const api = new sst.aws.ApiGatewayV2("ApiGateway", {
     domain: {
