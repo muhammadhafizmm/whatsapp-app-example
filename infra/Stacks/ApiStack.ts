@@ -3,9 +3,9 @@
 export function ApiStack() {
   const api = new sst.aws.ApiGatewayV2("ApiGateway", {
     domain: {
-      name: "whatsapp-webhook-example.ze9d4p.com",
+      name: "whatsapp-webhook-example.com", // Replace with your domain
       dns: sst.aws.dns({
-        zone: "Z00775033ROEXONBADCX9",
+        zone: "ZXXXXXXXXXXXXXXX", // Replace with your hosted zone ID
       }),
     },
   });
